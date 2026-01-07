@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags for responsiveness and basic SEO -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio website for Your Name. Professional tagline and overview of skills, projects, and contact information." />
+  <title>Your Name | Professional Portfolio</title>
+
+  <!-- Google Font (optional, can be changed later) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- ================= HEADER / NAVBAR ================= -->
+  <header class="site-header">
+    <div class="container header-container">
+      <!-- Logo / Name (simple text-based for now) -->
+      <a href="#home" class="logo">
+        <span class="logo-mark">YN</span>
+        <span class="logo-text">Your Name</span>
+      </a>
+
+      <!-- Primary navigation -->
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <button
+          class="nav-toggle"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+        >
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= MAIN CONTENT ================= -->
+  <main>
+    <!-- ========== HERO SECTION ========== -->
+    <section id="home" class="section hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="hero-eyebrow">Short professional tagline</p>
+          <h1 class="hero-title">Your Name</h1>
+          <h2 class="hero-subtitle">Your Professional Title or Focus Area</h2>
+          <p class="hero-description">
+            One concise sentence describing your professional focus, strengths, or the type of work you are looking for.
+          </p>
+          <div class="hero-actions">
+            <!-- Replace href with an actual file path to your CV/Resume PDF when ready -->
+            <a href="your-resume.pdf" class="btn btn-primary" target="_blank" rel="noopener">
+              Download CV
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              Contact Me
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-placeholder" aria-hidden="true">
+            <span>Profile Image</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section id="about" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">
+            A brief, professional introduction that highlights your background and interests.
+          </p>
+        </header>
+
+        <div class="about-layout">
+          <div class="about-text">
+            <p>
+              This is placeholder text for a short professional biography. Use this space to describe your core focus areas, years of experience (if desired), and the kind of problems you like to solve in your work.
+            </p>
+            <p>
+              You might mention your primary domains of interest, such as web development, data analysis, design, or another field. Highlight the key strengths that make you effective, like attention to detail, strong communication, or a passion for learning.
+            </p>
+            <p>
+              You can also briefly describe what you are currently working on, the types of teams or environments you enjoy, and what you are looking for in your next role or collaboration opportunity.
+            </p>
+          </div>
+
+          <div class="about-image">
+            <div class="profile-placeholder profile-placeholder--large" aria-hidden="true">
+              <span>Profile Image</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-subtitle">
+            A categorized overview of your primary skills, tools, and complementary strengths.
+          </p>
+        </header>
+
+        <div class="skills-grid">
+          <!-- Technical Skills Card -->
+          <article class="card">
+            <h3 class="card-title">Technical Skills</h3>
+            <ul class="pill-list">
+              <li class="pill">Placeholder Language 1</li>
+              <li class="pill">Placeholder Language 2</li>
+              <li class="pill">Placeholder Framework 1</li>
+              <li class="pill">Placeholder Framework 2</li>
+              <li class="pill">Placeholder Database</li>
+              <li class="pill">Placeholder Testing Tool</li>
+            </ul>
+          </article>
+
+          <!-- Tools & Technologies Card -->
+          <article class="card">
+            <h3 class="card-title">Tools &amp; Technologies</h3>
+            <ul class="pill-list">
+              <li class="pill">Placeholder IDE</li>
+              <li class="pill">Placeholder Version Control</li>
+              <li class="pill">Placeholder Design Tool</li>
+              <li class="pill">Placeholder Cloud Platform</li>
+              <li class="pill">Placeholder CI/CD Tool</li>
+              <li class="pill">Placeholder Analytics Tool</li>
+            </ul>
+          </article>
+
+          <!-- Other Relevant Skills Card -->
+          <article class="card">
+            <h3 class="card-title">Other Relevant Skills</h3>
+            <ul class="pill-list">
+              <li class="pill">Placeholder Communication Skill</li>
+              <li class="pill">Placeholder Collaboration Skill</li>
+              <li class="pill">Placeholder Leadership Skill</li>
+              <li class="pill">Placeholder Problem-Solving Skill</li>
+              <li class="pill">Placeholder Organizational Skill</li>
+              <li class="pill">Placeholder Adaptability Skill</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">
+            A selection of placeholder projects that represent the type of work you want to showcase.
+          </p>
+        </header>
+
+        <div class="grid projects-grid">
+          <!-- Project Card 1 -->
+          <article class="card project-card">
+            <div class="image-placeholder">
+              <span>Project Image</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Project Title One</h3>
+              <p class="card-text">
+                Short placeholder description summarizing the purpose of this project, your role, and the technologies involved.
+              </p>
+              <div class="card-actions">
+                <a href="#" class="btn btn-ghost">View Details</a>
+                <a href="#" class="btn btn-ghost">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 2 -->
+          <article class="card project-card">
+            <div class="image-placeholder">
+              <span>Project Image</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Project Title Two</h3>
+              <p class="card-text">
+                Short placeholder description that highlights the main features of this project and any noteworthy outcomes.
+              </p>
+              <div class="card-actions">
+                <a href="#" class="btn btn-ghost">View Details</a>
+                <a href="#" class="btn btn-ghost">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 3 -->
+          <article class="card project-card">
+            <div class="image-placeholder">
+              <span>Project Image</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Project Title Three</h3>
+              <p class="card-text">
+                Short placeholder description describing the project goals, the stack used, and what you learned from the experience.
+              </p>
+              <div class="card-actions">
+                <a href="#" class="btn btn-ghost">View Details</a>
+                <a href="#" class="btn btn-ghost">Source Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== RESUME SECTION ========== -->
+    <section id="resume" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Resume</h2>
+          <p class="section-subtitle">
+            A concise overview of your experience, education, and qualifications in a downloadable format.
+          </p>
+        </header>
+
+        <div class="resume-content">
+          <p>
+            This section serves as a quick reference to your professional profile. You can briefly describe your experience level, types of roles you have held, and the key achievements you want to highlight.
+          </p>
+          <p>
+            Use the button below to provide a direct link to a PDF version of your resume or CV. This makes it easy for recruiters and collaborators to download and review your information.
+          </p>
+          <!-- Replace href with an actual file path to your Resume PDF when ready -->
+          <a href="your-resume.pdf" class="btn btn-primary" target="_blank" rel="noopener">
+            Download Resume (PDF)
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ARTICLES SECTION ========== -->
+    <section id="articles" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Articles &amp; Writing</h2>
+          <p class="section-subtitle">
+            Example articles, blog posts, or written work that demonstrate your communication and expertise.
+          </p>
+        </header>
+
+        <div class="grid articles-grid">
+          <!-- Article Card 1 -->
+          <article class="card article-card">
+            <div class="card-body">
+              <h3 class="card-title">Article Title One</h3>
+              <p class="card-text">
+                Short placeholder summary describing the topic of this article and the main points you cover.
+              </p>
+              <a href="#" class="btn btn-ghost">Read More</a>
+            </div>
+          </article>
+
+          <!-- Article Card 2 -->
+          <article class="card article-card">
+            <div class="card-body">
+              <h3 class="card-title">Article Title Two</h3>
+              <p class="card-text">
+                Short placeholder summary that highlights the insights or perspectives you share in this piece.
+              </p>
+              <a href="#" class="btn btn-ghost">Read More</a>
+            </div>
+          </article>
+
+          <!-- Article Card 3 -->
+          <article class="card article-card">
+            <div class="card-body">
+              <h3 class="card-title">Article Title Three</h3>
+              <p class="card-text">
+                Short placeholder summary explaining how this article relates to your professional interests or expertise.
+              </p>
+              <a href="#" class="btn btn-ghost">Read More</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">
+            A simple way for people to reach out about opportunities, collaborations, or questions.
+          </p>
+        </header>
+
+        <div class="contact-layout">
+          <!-- Contact Form -->
+          <form class="contact-form" action="#" method="post">
+            <!-- Note: This is a front-end-only form. You can connect it to a backend or form service later. -->
+            <div class="form-field">
+              <label for="contact-name">Name</label>
+              <input
+                type="text"
+                id="contact-name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="contact-email">Email</label>
+              <input
+                type="email"
+                id="contact-email"
+                name="email"
+                placeholder="your.email@example.com"
+                required
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="contact-message">Message</label>
+              <textarea
+                id="contact-message"
+                name="message"
+                rows="5"
+                placeholder="Write a short message about why you are reaching out."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+              Send Message
+            </button>
+          </form>
+
+          <!-- Contact Details / Social Links -->
+          <div class="contact-info">
+            <p>
+              You can also include links to your professional profiles or preferred communication channels below. Replace the placeholder URLs with your actual links.
+            </p>
+
+            <div class="social-links" aria-label="Social media links">
+              <!-- LinkedIn Placeholder -->
+              <a href="#" class="social-icon" aria-label="LinkedIn profile">
+                <!-- Simple inline SVG icon -->
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                  <path d="M7 17V10" />
+                  <circle cx="7" cy="7" r="1" />
+                  <path d="M11 17V13.5C11 12.67 11.67 12 12.5 12C13.33 12 14 12.67 14 13.5V17" />
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+
+              <!-- GitHub Placeholder -->
+              <a href="#" class="social-icon" aria-label="GitHub profile">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 3C7.58 3 4 6.58 4 11C4 14.42 6.29 17.27 9.35 18.26C9.42 18.27 9.5 18.23 9.53 18.16C9.56 18.1 9.58 18 9.58 17.9C9.58 17.8 9.58 17.5 9.58 17.19C7.5 17.64 7.03 16.24 7.03 16.24C6.99 15.35 6.54 14.96 6.54 14.96C5.85 14.5 6.59 14.51 6.59 14.51C7.35 14.57 7.75 15.29 7.75 15.29C8.42 16.46 9.5 16.12 9.93 15.95C9.99 15.5 10.17 15.18 10.37 15C8.77 14.82 7.08 14.19 7.08 11.67C7.08 10.94 7.34 10.34 7.77 9.87C7.7 9.69 7.47 8.96 7.84 7.97C7.84 7.97 8.4 7.79 9.58 8.61C10.11 8.46 10.69 8.38 11.26 8.38C11.83 8.38 12.41 8.46 12.94 8.61C14.12 7.79 14.68 7.97 14.68 7.97C15.05 8.96 14.82 9.69 14.75 9.87C15.18 10.34 15.44 10.94 15.44 11.67C15.44 14.2 13.74 14.81 12.14 14.99C12.41 15.23 12.63 15.67 12.63 16.35C12.63 17.29 12.63 17.77 12.63 17.9C12.63 18.01 12.65 18.1 12.68 18.16C12.71 18.23 12.79 18.27 12.86 18.26C15.92 17.27 18.21 14.42 18.21 11C18.21 6.58 14.63 3 10.21 3H12Z"
+                  ></path>
+                </svg>
+                <span>GitHub</span>
+              </a>
+
+              <!-- Email Placeholder -->
+              <a href="mailto:your.email@example.com" class="social-icon" aria-label="Email address">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                  <path d="M5 7L12 12L19 7" />
+                </svg>
+                <span>Email</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p class="footer-text">
+        &copy; <span id="current-year"></span> Your Name. All rights reserved.
+      </p>
+
+      <div class="footer-social">
+        <!-- Reuse social icons (placeholders) -->
+        <a href="#" aria-label="LinkedIn profile">
+          LinkedIn
+        </a>
+        <a href="#" aria-label="GitHub profile">
+          GitHub
+        </a>
+        <a href="mailto:your.email@example.com" aria-label="Email address">
+          Email
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main script -->
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+
